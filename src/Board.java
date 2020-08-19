@@ -3,12 +3,14 @@ import java.util.*;
 
 public class Board {
     private final List<List<Integer>> board;
-
+    
+    // Read file
     public Board(String filePath) throws IOException {
         BoardReader reader = BoardReaderFactory.getReader(filePath);
         this.board = reader.parseBoard(filePath);
     }
-
+    
+    // Create board, add in numbers
     public Board(List<List<Integer>> board) {
         this.board = new ArrayList<>();
 
@@ -19,11 +21,13 @@ public class Board {
             }
         }
     }
-
+    
+    // Get board
     public List<List<Integer>> getBoard() {
         return board;
     }
-
+    
+    // toString method
     public String toString() {
         StringBuilder boardString = new StringBuilder();
         for (List<Integer> row : this.board) {
@@ -42,7 +46,8 @@ public class Board {
 
         return boardString.toString();
     }
-
+    
+    // Get how many blanks
     private int getNumBlanks() {
         int blanks = 0;
         for (List<Integer> row : this.board) {
@@ -55,7 +60,8 @@ public class Board {
 
         return blanks;
     }
-
+    
+    // Check for validity
     public boolean isValid() {
         for (List<Integer> row : board) {
             for (Integer cell : row) {
@@ -113,7 +119,8 @@ public class Board {
 
         return true;
     }
-
+    
+    // Checks if sudoku is solved
     public boolean isSolved() {
         return isValid() && getNumBlanks() == 0;
     }
