@@ -50,20 +50,20 @@ Some Java 7 included to make sure the program runs better.
  * Constructor: IterativeSolver(String filePath) throws IOException
    * This constructor takes in the given file and creates a board with it
  * Functions:
-  * solve()
-    * This function is a recursive function for solve(Board board)
-  * solve(Board board)
-    * This function solves the board iteratively after taking in a board
+   * solve()
+     * This function is a recursive function for solve(Board board)
+   * solve(Board board)
+     * This function solves the board iteratively after taking in a board
 
 5. RecursiveSolver.java
  * This class solves the sudoku recursively, is an extension of SudokuSolver
  * Constructor: RecursiveSolver(String filePath) throws IOException
    * This constructor takes in the given file and creates a board with it
  * Functions:
-  * solve()
-    * This function is a recursive function for solve(Board board)
-  * solve(Board board)
-    * This function solves the board recursively after taking in a board
+   * solve()
+     * This function is a recursive function for solve(Board board)
+   * solve(Board board)
+     * This function solves the board recursively after taking in a board
 
 6. SdkBoardReader.java
  * This class solves a sudoku that has a file type of sdk, implements BoardReader
