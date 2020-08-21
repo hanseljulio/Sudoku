@@ -1,6 +1,6 @@
 # Sudoku
-Sudoku with Iterative and Recursive Solver
-Created May 20th, 2019
+* Sudoku with Iterative and Recursive Solver
+* Created May 20th, 2019
 
 -------------------------------------------------------------------------------
 
