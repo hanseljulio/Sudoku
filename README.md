@@ -5,10 +5,10 @@ Created May 20th, 2019
 -------------------------------------------------------------------------------
 
 ## Overview
-This is a sudoku, created with lists, abstract classes, interfaces, and polymorphism.
-Sudoku can be solved recursively and iteratively.
-Accepted files include .sdk and .ss
-Some Java 7 included to make sure the program runs better.
+* This is a sudoku, created with lists, abstract classes, interfaces, and polymorphism.
+* Sudoku can be solved recursively and iteratively.
+* Accepted files include .sdk and .ss
+* Some Java 7 included to make sure the program runs better.
 
 -------------------------------------------------------------------------------
 
