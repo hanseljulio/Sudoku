@@ -18,7 +18,7 @@ Some Java 7 included to make sure the program runs better.
  * Constructors:
    * Board(String filePath) throws IOException
      * This function will read the given file and set the given field to the board
-   * Board(List< List < Integer > > board)
+   * Board(List<List< Integer >> board)
      * This function will create a new board from the private field
  * Functions:
    * getBoard()
