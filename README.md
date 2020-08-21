@@ -6,6 +6,8 @@ Created May 20th, 2019
 
 ## Overview
 This is a sudoku, created with lists, abstract classes, interfaces, and polymorphism.
+Sudoku can be solved recursively and iteratively.
+Accepted files include .sdk and .ss
 Some Java 7 included to make sure the program runs better.
 
 -------------------------------------------------------------------------------
@@ -16,11 +18,11 @@ Some Java 7 included to make sure the program runs better.
  * Constructors:
    * Board(String filePath) throws IOException
      * This function will read the given file and set the given field to the board
-   * Board(List<List<Integer>> board)
+   * Board(List< List < Integer > > board)
      * This function will create a new board from the private field
  * Functions:
    * getBoard()
-     * This function will return the board as a Integer 2D list
+     * This function will return the board as an Integer 2D list
    * toString()
      * This function will return the board as a string
    * getNumBlanks()
